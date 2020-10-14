@@ -1,0 +1,57 @@
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+
+html {
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  background-image: linear-gradient(#ff9500, #ff5e3a)
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.icon {
+  position: relative;
+  height: 8em;
+  width: 8em;
+}
+
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: currentColor;
+}
+
+section div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  grid-row-gap: 6vmin;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a {
+  border: .2rem solid #fff;
+}
