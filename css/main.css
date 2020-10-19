@@ -4,7 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   height: 100%;
   line-height: 1.5;
 }
@@ -17,18 +17,16 @@ body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
   height: 100%;
   margin: 0;
-  padding: 6vmin;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
-  font-size: 1.125rem;
-}
-
-h1 {
-  font-size: 2rem;
 }
 
 h2 {
+  font-size: 2rem;
+}
+
+h3 {
   font-size: 1.5rem;
   text-align: center;
 }
@@ -43,7 +41,7 @@ ul {
 }
 
 ul li {
-  padding: 1.5rem;;
+  padding: 1rem;
 }
 
 a {
@@ -57,7 +55,7 @@ a {
 .button {
   border: .2rem solid #fff;
   padding: 1rem;
-  margin: 1.5rem;
+  font-size: 1.125rem;
 }
 
 a:hover, a:focus {
@@ -81,7 +79,7 @@ a:hover, a:focus {
 
 @media only screen and (min-width: 25em) {
 
-  h1 {
+  h2{
     text-align: center;
   }
 
@@ -93,4 +91,17 @@ a:hover, a:focus {
     margin: 0;
     padding: 0;
   }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .button {
+    margin: 1.5rem;
+  }
+
+  ul li {
+    padding: 6vmin;
+  }
+
 }
