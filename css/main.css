@@ -16,12 +16,12 @@ body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
   margin: 0;
   color: #fff;
-  padding: 1rem;
 }
 
 h2 {
   font-size: 2rem;
   margin: 0;
+  padding: 1rem 1rem 0;
 }
 
 h3 {
@@ -90,16 +90,19 @@ a:hover, a:focus {
     padding: 0;
   }
 
+  ul li {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  body {
+    padding: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-  .button {
-    margin: 1.5rem;
-  }
 
-  ul li {
-    padding: 6vmin;
-  }
 
 }
