@@ -103,6 +103,16 @@ a:hover, a:focus {
 
 @media only screen and (min-width: 38em) {
 
+  h2 {
+    padding: 1rem;
+  }
 
+  ul li {
+    padding: 1rem;
+  }
+
+  p {
+    margin-bottom: 4rem;
+  }
 
 }
