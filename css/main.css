@@ -33,7 +33,6 @@ ul {
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: center;
   margin: 0;
   padding: 0;
 }
@@ -85,6 +84,7 @@ a:hover, a:focus {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
     justify-items: center;
     margin: 0;
     padding: 0;
@@ -111,8 +111,18 @@ a:hover, a:focus {
     padding: 1rem;
   }
 
-  p {
-    margin-bottom: 4rem;
+  .space-bubbles {
+    padding-right: 1rem;
+    text-align: left;
   }
+
+  p {
+    margin-bottom: 6vmin;
+  }
+
+  .domes, .stilts {
+    margin-bottom: 4.5rem;
+  }
+
 
 }
