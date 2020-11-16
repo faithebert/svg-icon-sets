@@ -16,10 +16,12 @@ body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
   margin: 0;
   color: #fff;
+  padding: 1rem;
 }
 
 h2 {
   font-size: 2rem;
+  margin: 0;
 }
 
 h3 {
@@ -37,7 +39,7 @@ ul {
 }
 
 ul li {
-  padding: 1rem;
+  padding: 6vmin;
 }
 
 a {
